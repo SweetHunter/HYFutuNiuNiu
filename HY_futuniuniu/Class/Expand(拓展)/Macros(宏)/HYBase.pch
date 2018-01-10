@@ -1,0 +1,15 @@
+//
+//  HYBase.pch
+//  HY_futuniuniu
+//
+//  Created by tongfang on 2017/11/20.
+//  Copyright © 2017年 Hyman. All rights reserved.
+//
+
+#ifndef HYBase_pch
+#define HYBase_pch
+
+#import "HYToolMarco.h"
+#import "HYCommomTools.h"
+
+#endif /* HYBase_pch */

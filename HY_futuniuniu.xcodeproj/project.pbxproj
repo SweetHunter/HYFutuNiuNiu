@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		631A74DB1FC4734E00BE881A /* NSString+HYRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 631A74DA1FC4734E00BE881A /* NSString+HYRect.m */; };
+		C6598CD31FC3C7A000D52A92 /* HYCommomTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C6598CD21FC3C7A000D52A92 /* HYCommomTools.m */; };
+		C665B4771FC6649500D2625D /* HYStockListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C665B4761FC6649500D2625D /* HYStockListCell.m */; };
+		C665C8361FBD16C400AAD713 /* HYBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665C8351FBD16C400AAD713 /* HYBaseNavigationController.m */; };
+		C665C8391FBD16E600AAD713 /* HYBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665C8381FBD16E600AAD713 /* HYBaseTabBarController.m */; };
+		C665C83C1FBD170000AAD713 /* HYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C665C83B1FBD170000AAD713 /* HYBaseViewController.m */; };
+		C67852921FC66EA500A09767 /* HYStockListSecHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = C67852911FC66EA500A09767 /* HYStockListSecHeadView.m */; };
+		C67852951FC6B56D00A09767 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = C67852941FC6B56D00A09767 /* UIButton+ImageTitleSpacing.m */; };
+		C67852971FC6BBCD00A09767 /* StockList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C67852961FC6BBCD00A09767 /* StockList.plist */; };
+		C678529C1FC6CB7F00A09767 /* HYStockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C678529B1FC6CB7F00A09767 /* HYStockModel.m */; };
+		C685A0C31FC7EEA700977DB6 /* HYStockListTabFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C685A0C21FC7EEA700977DB6 /* HYStockListTabFooterView.m */; };
+		C685A0C61FC7F6BF00977DB6 /* HYStockListTabHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C685A0C51FC7F6BF00977DB6 /* HYStockListTabHeaderView.m */; };
+		C68AABB91FC25F9700FB6BAA /* HYBaseTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABB81FC25F9700FB6BAA /* HYBaseTabBar.m */; };
+		C68AABBC1FC262AF00FB6BAA /* HYInfomationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABBB1FC262AF00FB6BAA /* HYInfomationController.m */; };
+		C68AABBF1FC262C600FB6BAA /* HYMarketController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABBE1FC262C600FB6BAA /* HYMarketController.m */; };
+		C68AABC21FC262DB00FB6BAA /* HYTradeController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABC11FC262DB00FB6BAA /* HYTradeController.m */; };
+		C68AABC51FC2632900FB6BAA /* HYMyController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABC41FC2632900FB6BAA /* HYMyController.m */; };
+		C68AABC81FC2634C00FB6BAA /* HYCircleOfNiuController.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AABC71FC2634C00FB6BAA /* HYCircleOfNiuController.m */; };
+		C694E8721FC406640043113A /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = C694E8701FC406640043113A /* NSObject+SXRuntime.m */; };
+		C694E8731FC406640043113A /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = C694E8711FC406640043113A /* UINavigation+SXFixSpace.m */; };
+		C694E8761FC41ED70043113A /* HYSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = C694E8751FC41ED70043113A /* HYSegmentView.m */; };
+		C694E8791FC42D290043113A /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C694E8781FC42D280043113A /* UIView+YYAdd.m */; };
+		C6B1E97B20049BCD005F07D8 /* HYTradeCustomTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1E97A20049BCD005F07D8 /* HYTradeCustomTopView.m */; };
+		C6B7DC5F1FF4E0790009D25E /* HYMiniStockView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B7DC5E1FF4E0790009D25E /* HYMiniStockView.m */; };
+		C6C9C3FB1FBBDC8E0090D72D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C9C3FA1FBBDC8E0090D72D /* AppDelegate.m */; };
+		C6C9C4031FBBDC8E0090D72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C9C4021FBBDC8E0090D72D /* Assets.xcassets */; };
+		C6C9C4091FBBDC8E0090D72D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C9C4081FBBDC8E0090D72D /* main.m */; };
+		C6FD730C1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FD730B1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.m */; };
+		C6FD730F1FC2B20400AC3357 /* UITabBar+HYOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = C6FD730E1FC2B20400AC3357 /* UITabBar+HYOverlay.m */; };
+		D5F00F0E5DAFA6C09B5963BC /* libPods-HY_futuniuniu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B533836B75E03F747AC3B217 /* libPods-HY_futuniuniu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51B29E07C56AAC457F2E7D47 /* Pods-HY_futuniuniu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HY_futuniuniu.release.xcconfig"; path = "Pods/Target Support Files/Pods-HY_futuniuniu/Pods-HY_futuniuniu.release.xcconfig"; sourceTree = "<group>"; };
+		631A74D91FC4734E00BE881A /* NSString+HYRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYRect.h"; sourceTree = "<group>"; };
+		631A74DA1FC4734E00BE881A /* NSString+HYRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYRect.m"; sourceTree = "<group>"; };
+		B533836B75E03F747AC3B217 /* libPods-HY_futuniuniu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HY_futuniuniu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B67DF9F5AE3270522F2B9D10 /* Pods-HY_futuniuniu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HY_futuniuniu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HY_futuniuniu/Pods-HY_futuniuniu.debug.xcconfig"; sourceTree = "<group>"; };
+		C6598CD11FC3C7A000D52A92 /* HYCommomTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCommomTools.h; sourceTree = "<group>"; };
+		C6598CD21FC3C7A000D52A92 /* HYCommomTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCommomTools.m; sourceTree = "<group>"; };
+		C665B4751FC6649500D2625D /* HYStockListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStockListCell.h; sourceTree = "<group>"; };
+		C665B4761FC6649500D2625D /* HYStockListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStockListCell.m; sourceTree = "<group>"; };
+		C665C8341FBD16C400AAD713 /* HYBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseNavigationController.h; sourceTree = "<group>"; };
+		C665C8351FBD16C400AAD713 /* HYBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseNavigationController.m; sourceTree = "<group>"; };
+		C665C8371FBD16E600AAD713 /* HYBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseTabBarController.h; sourceTree = "<group>"; };
+		C665C8381FBD16E600AAD713 /* HYBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseTabBarController.m; sourceTree = "<group>"; };
+		C665C83A1FBD170000AAD713 /* HYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseViewController.h; sourceTree = "<group>"; };
+		C665C83B1FBD170000AAD713 /* HYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseViewController.m; sourceTree = "<group>"; };
+		C67852901FC66EA500A09767 /* HYStockListSecHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStockListSecHeadView.h; sourceTree = "<group>"; };
+		C67852911FC66EA500A09767 /* HYStockListSecHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStockListSecHeadView.m; sourceTree = "<group>"; };
+		C67852931FC6B56D00A09767 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		C67852941FC6B56D00A09767 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		C67852961FC6BBCD00A09767 /* StockList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = StockList.plist; sourceTree = "<group>"; };
+		C678529A1FC6CB7F00A09767 /* HYStockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStockModel.h; sourceTree = "<group>"; };
+		C678529B1FC6CB7F00A09767 /* HYStockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStockModel.m; sourceTree = "<group>"; };
+		C685A0C11FC7EEA700977DB6 /* HYStockListTabFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStockListTabFooterView.h; sourceTree = "<group>"; };
+		C685A0C21FC7EEA700977DB6 /* HYStockListTabFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStockListTabFooterView.m; sourceTree = "<group>"; };
+		C685A0C41FC7F6BF00977DB6 /* HYStockListTabHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYStockListTabHeaderView.h; sourceTree = "<group>"; };
+		C685A0C51FC7F6BF00977DB6 /* HYStockListTabHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYStockListTabHeaderView.m; sourceTree = "<group>"; };
+		C68AABB71FC25F9700FB6BAA /* HYBaseTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBaseTabBar.h; sourceTree = "<group>"; };
+		C68AABB81FC25F9700FB6BAA /* HYBaseTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYBaseTabBar.m; sourceTree = "<group>"; };
+		C68AABBA1FC262AF00FB6BAA /* HYInfomationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYInfomationController.h; sourceTree = "<group>"; };
+		C68AABBB1FC262AF00FB6BAA /* HYInfomationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYInfomationController.m; sourceTree = "<group>"; };
+		C68AABBD1FC262C600FB6BAA /* HYMarketController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMarketController.h; sourceTree = "<group>"; };
+		C68AABBE1FC262C600FB6BAA /* HYMarketController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMarketController.m; sourceTree = "<group>"; };
+		C68AABC01FC262DB00FB6BAA /* HYTradeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTradeController.h; sourceTree = "<group>"; };
+		C68AABC11FC262DB00FB6BAA /* HYTradeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTradeController.m; sourceTree = "<group>"; };
+		C68AABC31FC2632900FB6BAA /* HYMyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMyController.h; sourceTree = "<group>"; };
+		C68AABC41FC2632900FB6BAA /* HYMyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMyController.m; sourceTree = "<group>"; };
+		C68AABC61FC2634C00FB6BAA /* HYCircleOfNiuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYCircleOfNiuController.h; sourceTree = "<group>"; };
+		C68AABC71FC2634C00FB6BAA /* HYCircleOfNiuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYCircleOfNiuController.m; sourceTree = "<group>"; };
+		C68AABC91FC27BEC00FB6BAA /* HYBase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBase.pch; sourceTree = "<group>"; };
+		C68AABCA1FC280CB00FB6BAA /* HYToolMarco.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYToolMarco.h; sourceTree = "<group>"; };
+		C694E86E1FC406630043113A /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		C694E86F1FC406630043113A /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		C694E8701FC406640043113A /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		C694E8711FC406640043113A /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		C694E8741FC41ED70043113A /* HYSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYSegmentView.h; sourceTree = "<group>"; };
+		C694E8751FC41ED70043113A /* HYSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYSegmentView.m; sourceTree = "<group>"; };
+		C694E8771FC42D280043113A /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		C694E8781FC42D280043113A /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		C6B1E97920049BCD005F07D8 /* HYTradeCustomTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYTradeCustomTopView.h; sourceTree = "<group>"; };
+		C6B1E97A20049BCD005F07D8 /* HYTradeCustomTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYTradeCustomTopView.m; sourceTree = "<group>"; };
+		C6B7DC5D1FF4E0790009D25E /* HYMiniStockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYMiniStockView.h; sourceTree = "<group>"; };
+		C6B7DC5E1FF4E0790009D25E /* HYMiniStockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYMiniStockView.m; sourceTree = "<group>"; };
+		C6C9C3F61FBBDC8E0090D72D /* HY_futuniuniu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HY_futuniuniu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C9C3F91FBBDC8E0090D72D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6C9C3FA1FBBDC8E0090D72D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6C9C4021FBBDC8E0090D72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6C9C4071FBBDC8E0090D72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C9C4081FBBDC8E0090D72D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6FD730A1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HYOverlay.h"; sourceTree = "<group>"; };
+		C6FD730B1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HYOverlay.m"; sourceTree = "<group>"; };
+		C6FD730D1FC2B20400AC3357 /* UITabBar+HYOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITabBar+HYOverlay.h"; sourceTree = "<group>"; };
+		C6FD730E1FC2B20400AC3357 /* UITabBar+HYOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+HYOverlay.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C9C3F31FBBDC8E0090D72D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F00F0E5DAFA6C09B5963BC /* libPods-HY_futuniuniu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E342AADCBA41006A8D09101 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B67DF9F5AE3270522F2B9D10 /* Pods-HY_futuniuniu.debug.xcconfig */,
+				51B29E07C56AAC457F2E7D47 /* Pods-HY_futuniuniu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6C9C3ED1FBBDC8E0090D72D = {
+			isa = PBXGroup;
+			children = (
+				C6C9C3F81FBBDC8E0090D72D /* HY_futuniuniu */,
+				C6C9C3F71FBBDC8E0090D72D /* Products */,
+				5E342AADCBA41006A8D09101 /* Pods */,
+				EF256D217297A8BF2A04994D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C9C3F71FBBDC8E0090D72D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C3F61FBBDC8E0090D72D /* HY_futuniuniu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C9C3F81FBBDC8E0090D72D /* HY_futuniuniu */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C40F1FBC20810090D72D /* Class */,
+				C6C9C3F91FBBDC8E0090D72D /* AppDelegate.h */,
+				C6C9C3FA1FBBDC8E0090D72D /* AppDelegate.m */,
+				C6C9C4021FBBDC8E0090D72D /* Assets.xcassets */,
+				C6C9C4071FBBDC8E0090D72D /* Info.plist */,
+				C6C9C4081FBBDC8E0090D72D /* main.m */,
+			);
+			path = HY_futuniuniu;
+			sourceTree = "<group>";
+		};
+		C6C9C40F1FBC20810090D72D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4101FBC20810090D72D /* Vender(第三方) */,
+				C6C9C4111FBC20810090D72D /* Resource(资源) */,
+				C6C9C4161FBC20810090D72D /* Main(主要) */,
+				C6C9C4331FBC20810090D72D /* Expand(拓展) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		C6C9C4101FBC20810090D72D /* Vender(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+				C694E8741FC41ED70043113A /* HYSegmentView.h */,
+				C694E8751FC41ED70043113A /* HYSegmentView.m */,
+			);
+			path = "Vender(第三方)";
+			sourceTree = "<group>";
+		};
+		C6C9C4111FBC20810090D72D /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4121FBC20810090D72D /* Video(视频文件) */,
+				C6C9C4131FBC20810090D72D /* Images(图片文件) */,
+				C6C9C4141FBC20810090D72D /* Plist(列表文件) */,
+				C6C9C4151FBC20810090D72D /* Audio(音频文件) */,
+			);
+			path = "Resource(资源)";
+			sourceTree = "<group>";
+		};
+		C6C9C4121FBC20810090D72D /* Video(视频文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Video(视频文件)";
+			sourceTree = "<group>";
+		};
+		C6C9C4131FBC20810090D72D /* Images(图片文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Images(图片文件)";
+			sourceTree = "<group>";
+		};
+		C6C9C4141FBC20810090D72D /* Plist(列表文件) */ = {
+			isa = PBXGroup;
+			children = (
+				C67852961FC6BBCD00A09767 /* StockList.plist */,
+			);
+			path = "Plist(列表文件)";
+			sourceTree = "<group>";
+		};
+		C6C9C4151FBC20810090D72D /* Audio(音频文件) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Audio(音频文件)";
+			sourceTree = "<group>";
+		};
+		C6C9C4161FBC20810090D72D /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4171FBC20810090D72D /* Infomation(资讯) */,
+				C6C9C41C1FBC20810090D72D /* Market(行情) */,
+				C6C9C4211FBC20810090D72D /* Trade(交易) */,
+				C6C9C4261FBC20810090D72D /* Other(其他) */,
+				C6C9C4291FBC20810090D72D /* My(我的) */,
+				C6C9C42E1FBC20810090D72D /* CirCleOfNiuNiu(牛牛圈) */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		C6C9C4171FBC20810090D72D /* Infomation(资讯) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4181FBC20810090D72D /* View(视图) */,
+				C6C9C4191FBC20810090D72D /* Model(模型) */,
+				C6C9C41A1FBC20810090D72D /* Other(其他) */,
+				C6C9C41B1FBC20810090D72D /* Controller(控制器) */,
+			);
+			path = "Infomation(资讯)";
+			sourceTree = "<group>";
+		};
+		C6C9C4181FBC20810090D72D /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		C6C9C4191FBC20810090D72D /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		C6C9C41A1FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C41B1FBC20810090D72D /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABBA1FC262AF00FB6BAA /* HYInfomationController.h */,
+				C68AABBB1FC262AF00FB6BAA /* HYInfomationController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		C6C9C41C1FBC20810090D72D /* Market(行情) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C41D1FBC20810090D72D /* View(视图) */,
+				C6C9C41E1FBC20810090D72D /* Model(模型) */,
+				C6C9C41F1FBC20810090D72D /* Other(其他) */,
+				C6C9C4201FBC20810090D72D /* Controller(控制器) */,
+			);
+			path = "Market(行情)";
+			sourceTree = "<group>";
+		};
+		C6C9C41D1FBC20810090D72D /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+				C665B4751FC6649500D2625D /* HYStockListCell.h */,
+				C665B4761FC6649500D2625D /* HYStockListCell.m */,
+				C67852901FC66EA500A09767 /* HYStockListSecHeadView.h */,
+				C67852911FC66EA500A09767 /* HYStockListSecHeadView.m */,
+				C685A0C11FC7EEA700977DB6 /* HYStockListTabFooterView.h */,
+				C685A0C21FC7EEA700977DB6 /* HYStockListTabFooterView.m */,
+				C685A0C41FC7F6BF00977DB6 /* HYStockListTabHeaderView.h */,
+				C685A0C51FC7F6BF00977DB6 /* HYStockListTabHeaderView.m */,
+				C6B7DC5D1FF4E0790009D25E /* HYMiniStockView.h */,
+				C6B7DC5E1FF4E0790009D25E /* HYMiniStockView.m */,
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		C6C9C41E1FBC20810090D72D /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+				C678529A1FC6CB7F00A09767 /* HYStockModel.h */,
+				C678529B1FC6CB7F00A09767 /* HYStockModel.m */,
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		C6C9C41F1FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C4201FBC20810090D72D /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABBD1FC262C600FB6BAA /* HYMarketController.h */,
+				C68AABBE1FC262C600FB6BAA /* HYMarketController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		C6C9C4211FBC20810090D72D /* Trade(交易) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4221FBC20810090D72D /* View(视图) */,
+				C6C9C4231FBC20810090D72D /* Model(模型) */,
+				C6C9C4241FBC20810090D72D /* Other(其他) */,
+				C6C9C4251FBC20810090D72D /* Controller(控制器) */,
+			);
+			path = "Trade(交易)";
+			sourceTree = "<group>";
+		};
+		C6C9C4221FBC20810090D72D /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+				C6B1E97920049BCD005F07D8 /* HYTradeCustomTopView.h */,
+				C6B1E97A20049BCD005F07D8 /* HYTradeCustomTopView.m */,
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		C6C9C4231FBC20810090D72D /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		C6C9C4241FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C4251FBC20810090D72D /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABC01FC262DB00FB6BAA /* HYTradeController.h */,
+				C68AABC11FC262DB00FB6BAA /* HYTradeController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		C6C9C4261FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4271FBC20810090D72D /* Base(基类) */,
+				C6C9C4281FBC20810090D72D /* Login(登录) */,
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C4271FBC20810090D72D /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				C665C8341FBD16C400AAD713 /* HYBaseNavigationController.h */,
+				C665C8351FBD16C400AAD713 /* HYBaseNavigationController.m */,
+				C665C8371FBD16E600AAD713 /* HYBaseTabBarController.h */,
+				C665C8381FBD16E600AAD713 /* HYBaseTabBarController.m */,
+				C665C83A1FBD170000AAD713 /* HYBaseViewController.h */,
+				C665C83B1FBD170000AAD713 /* HYBaseViewController.m */,
+				C68AABB71FC25F9700FB6BAA /* HYBaseTabBar.h */,
+				C68AABB81FC25F9700FB6BAA /* HYBaseTabBar.m */,
+			);
+			path = "Base(基类)";
+			sourceTree = "<group>";
+		};
+		C6C9C4281FBC20810090D72D /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		C6C9C4291FBC20810090D72D /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C42A1FBC20810090D72D /* View(视图) */,
+				C6C9C42B1FBC20810090D72D /* Model(模型) */,
+				C6C9C42C1FBC20810090D72D /* Other(其他) */,
+				C6C9C42D1FBC20810090D72D /* Controller(控制器) */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		C6C9C42A1FBC20810090D72D /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		C6C9C42B1FBC20810090D72D /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		C6C9C42C1FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C42D1FBC20810090D72D /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABC31FC2632900FB6BAA /* HYMyController.h */,
+				C68AABC41FC2632900FB6BAA /* HYMyController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		C6C9C42E1FBC20810090D72D /* CirCleOfNiuNiu(牛牛圈) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C42F1FBC20810090D72D /* View(视图) */,
+				C6C9C4301FBC20810090D72D /* Model(模型) */,
+				C6C9C4311FBC20810090D72D /* Other(其他) */,
+				C6C9C4321FBC20810090D72D /* Controller(控制器) */,
+			);
+			path = "CirCleOfNiuNiu(牛牛圈)";
+			sourceTree = "<group>";
+		};
+		C6C9C42F1FBC20810090D72D /* View(视图) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View(视图)";
+			sourceTree = "<group>";
+		};
+		C6C9C4301FBC20810090D72D /* Model(模型) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model(模型)";
+			sourceTree = "<group>";
+		};
+		C6C9C4311FBC20810090D72D /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Other(其他)";
+			sourceTree = "<group>";
+		};
+		C6C9C4321FBC20810090D72D /* Controller(控制器) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABC61FC2634C00FB6BAA /* HYCircleOfNiuController.h */,
+				C68AABC71FC2634C00FB6BAA /* HYCircleOfNiuController.m */,
+			);
+			path = "Controller(控制器)";
+			sourceTree = "<group>";
+		};
+		C6C9C4331FBC20810090D72D /* Expand(拓展) */ = {
+			isa = PBXGroup;
+			children = (
+				C6C9C4341FBC20810090D72D /* Const(常量) */,
+				C6C9C4351FBC20810090D72D /* Macros(宏) */,
+				C6C9C4361FBC20810090D72D /* DataBase(数据库) */,
+				C6C9C4371FBC20810090D72D /* Tool(工具类) */,
+				C6C9C4381FBC20810090D72D /* Category(分类) */,
+				C6C9C4391FBC20810090D72D /* NetWork(网络) */,
+			);
+			path = "Expand(拓展)";
+			sourceTree = "<group>";
+		};
+		C6C9C4341FBC20810090D72D /* Const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Const(常量)";
+			sourceTree = "<group>";
+		};
+		C6C9C4351FBC20810090D72D /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				C68AABC91FC27BEC00FB6BAA /* HYBase.pch */,
+				C68AABCA1FC280CB00FB6BAA /* HYToolMarco.h */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		C6C9C4361FBC20810090D72D /* DataBase(数据库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "DataBase(数据库)";
+			sourceTree = "<group>";
+		};
+		C6C9C4371FBC20810090D72D /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				C6598CD11FC3C7A000D52A92 /* HYCommomTools.h */,
+				C6598CD21FC3C7A000D52A92 /* HYCommomTools.m */,
+			);
+			path = "Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		C6C9C4381FBC20810090D72D /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				C67852931FC6B56D00A09767 /* UIButton+ImageTitleSpacing.h */,
+				C67852941FC6B56D00A09767 /* UIButton+ImageTitleSpacing.m */,
+				631A74D91FC4734E00BE881A /* NSString+HYRect.h */,
+				631A74DA1FC4734E00BE881A /* NSString+HYRect.m */,
+				C694E86E1FC406630043113A /* NSObject+SXRuntime.h */,
+				C694E8701FC406640043113A /* NSObject+SXRuntime.m */,
+				C694E86F1FC406630043113A /* UINavigation+SXFixSpace.h */,
+				C694E8711FC406640043113A /* UINavigation+SXFixSpace.m */,
+				C6FD730A1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.h */,
+				C6FD730B1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.m */,
+				C6FD730D1FC2B20400AC3357 /* UITabBar+HYOverlay.h */,
+				C6FD730E1FC2B20400AC3357 /* UITabBar+HYOverlay.m */,
+				C694E8771FC42D280043113A /* UIView+YYAdd.h */,
+				C694E8781FC42D280043113A /* UIView+YYAdd.m */,
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		C6C9C4391FBC20810090D72D /* NetWork(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NetWork(网络)";
+			sourceTree = "<group>";
+		};
+		EF256D217297A8BF2A04994D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B533836B75E03F747AC3B217 /* libPods-HY_futuniuniu.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C9C3F51FBBDC8E0090D72D /* HY_futuniuniu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C9C40C1FBBDC8E0090D72D /* Build configuration list for PBXNativeTarget "HY_futuniuniu" */;
+			buildPhases = (
+				5B4B0D0F86C91B38A6BC892D /* [CP] Check Pods Manifest.lock */,
+				C6C9C3F21FBBDC8E0090D72D /* Sources */,
+				C6C9C3F31FBBDC8E0090D72D /* Frameworks */,
+				C6C9C3F41FBBDC8E0090D72D /* Resources */,
+				84F72251F06132846604B8B2 /* [CP] Embed Pods Frameworks */,
+				47FD4873CC9EADC22D24A3DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HY_futuniuniu;
+			productName = HY_futuniuniu;
+			productReference = C6C9C3F61FBBDC8E0090D72D /* HY_futuniuniu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C9C3EE1FBBDC8E0090D72D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Hyman;
+				TargetAttributes = {
+					C6C9C3F51FBBDC8E0090D72D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C6C9C3F11FBBDC8E0090D72D /* Build configuration list for PBXProject "HY_futuniuniu" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C9C3ED1FBBDC8E0090D72D;
+			productRefGroup = C6C9C3F71FBBDC8E0090D72D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C9C3F51FBBDC8E0090D72D /* HY_futuniuniu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C9C3F41FBBDC8E0090D72D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C9C4031FBBDC8E0090D72D /* Assets.xcassets in Resources */,
+				C67852971FC6BBCD00A09767 /* StockList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47FD4873CC9EADC22D24A3DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HY_futuniuniu/Pods-HY_futuniuniu-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HY_futuniuniu/Pods-HY_futuniuniu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B4B0D0F86C91B38A6BC892D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HY_futuniuniu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84F72251F06132846604B8B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HY_futuniuniu/Pods-HY_futuniuniu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C9C3F21FBBDC8E0090D72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B1E97B20049BCD005F07D8 /* HYTradeCustomTopView.m in Sources */,
+				C67852951FC6B56D00A09767 /* UIButton+ImageTitleSpacing.m in Sources */,
+				C68AABBF1FC262C600FB6BAA /* HYMarketController.m in Sources */,
+				C678529C1FC6CB7F00A09767 /* HYStockModel.m in Sources */,
+				C665B4771FC6649500D2625D /* HYStockListCell.m in Sources */,
+				C665C8361FBD16C400AAD713 /* HYBaseNavigationController.m in Sources */,
+				C6B7DC5F1FF4E0790009D25E /* HYMiniStockView.m in Sources */,
+				C685A0C61FC7F6BF00977DB6 /* HYStockListTabHeaderView.m in Sources */,
+				C665C83C1FBD170000AAD713 /* HYBaseViewController.m in Sources */,
+				C6C9C4091FBBDC8E0090D72D /* main.m in Sources */,
+				C694E8721FC406640043113A /* NSObject+SXRuntime.m in Sources */,
+				C694E8761FC41ED70043113A /* HYSegmentView.m in Sources */,
+				C68AABBC1FC262AF00FB6BAA /* HYInfomationController.m in Sources */,
+				C68AABB91FC25F9700FB6BAA /* HYBaseTabBar.m in Sources */,
+				C685A0C31FC7EEA700977DB6 /* HYStockListTabFooterView.m in Sources */,
+				C67852921FC66EA500A09767 /* HYStockListSecHeadView.m in Sources */,
+				C6FD730F1FC2B20400AC3357 /* UITabBar+HYOverlay.m in Sources */,
+				631A74DB1FC4734E00BE881A /* NSString+HYRect.m in Sources */,
+				C68AABC51FC2632900FB6BAA /* HYMyController.m in Sources */,
+				C68AABC81FC2634C00FB6BAA /* HYCircleOfNiuController.m in Sources */,
+				C6C9C3FB1FBBDC8E0090D72D /* AppDelegate.m in Sources */,
+				C694E8731FC406640043113A /* UINavigation+SXFixSpace.m in Sources */,
+				C6598CD31FC3C7A000D52A92 /* HYCommomTools.m in Sources */,
+				C694E8791FC42D290043113A /* UIView+YYAdd.m in Sources */,
+				C665C8391FBD16E600AAD713 /* HYBaseTabBarController.m in Sources */,
+				C68AABC21FC262DB00FB6BAA /* HYTradeController.m in Sources */,
+				C6FD730C1FC2A30A00AC3357 /* UINavigationBar+HYOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6C9C40A1FBBDC8E0090D72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6C9C40B1FBBDC8E0090D72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6C9C40D1FBBDC8E0090D72D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67DF9F5AE3270522F2B9D10 /* Pods-HY_futuniuniu.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6545R7662C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HY_futuniuniu/Class/Expand(拓展)/Macros(宏)/HYBase.pch";
+				INFOPLIST_FILE = HY_futuniuniu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hyman.HY-futuniuniu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		C6C9C40E1FBBDC8E0090D72D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B29E07C56AAC457F2E7D47 /* Pods-HY_futuniuniu.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6545R7662C;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HY_futuniuniu/Class/Expand(拓展)/Macros(宏)/HYBase.pch";
+				INFOPLIST_FILE = HY_futuniuniu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Hyman.HY-futuniuniu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C9C3F11FBBDC8E0090D72D /* Build configuration list for PBXProject "HY_futuniuniu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C9C40A1FBBDC8E0090D72D /* Debug */,
+				C6C9C40B1FBBDC8E0090D72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C9C40C1FBBDC8E0090D72D /* Build configuration list for PBXNativeTarget "HY_futuniuniu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C9C40D1FBBDC8E0090D72D /* Debug */,
+				C6C9C40E1FBBDC8E0090D72D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C9C3EE1FBBDC8E0090D72D /* Project object */;
+}
